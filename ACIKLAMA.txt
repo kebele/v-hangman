@@ -1,0 +1,25 @@
+VUE 3 HANGMAN
+Traversy Media nın js projelerinden Hangman'ın vue 3 ile yazılması
+
+https://github.com/bradtraversy/vanillawebprojects/tree/master/hangman
+
+https://github.com/jsbroks/vue-hangman
+
+
+
+
+* css kısmını orjinal projeden al ./src/assets/style.css e koy > App.vue ya da bu nu import et 
+
+* 6 tane component olacak > Header, Figure, Notification, Word, WrongLetters, Popup 
+
+* Header hazırla
+
+* Figure.vue içinde svg olacak ve bu comp'a props gelecek > wrongCount isminde props gelecek > setup a props gelecek > her yanlış harfte adamın bir uzvu görünecek bunun için v-if kullanacağız 
+
+* WrongLetters.vue > buna da wrongLetters adaında props gelecek bu gelecek olan bir array > bu array de template de dönecek > 
+
+* popup comp > kazanma kaybetme durumları > 
+
+* App.vue > ana comp > 
+
+
